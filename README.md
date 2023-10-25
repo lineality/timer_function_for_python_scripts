@@ -5,6 +5,8 @@
 import time
 from datetime import datetime, timedelta
 
+
+# helper function: start timer for python script
 def start_timer():
     """
     requires:
@@ -46,6 +48,7 @@ def start_timer():
     return start_stamp
 
 
+# helper function: finish timer for python script
 def end_timer(start_time):
     """
     requires: 
