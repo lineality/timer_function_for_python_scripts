@@ -104,7 +104,7 @@ def end_timer(start_time):
     time_message = f"""
     Elapsed time: 
         posix epoch time: {elapsed_time} seconds
-        Earth Time Total: {count//600} min {count%600/10:.1f} sec, Mars Time Total: {total_mars_mins:.0f} min {total_mars_secs%60 + total_mars_tenths%10 / 10:.1f} sec
+        Earth Time Total: {count//60} min {count%60:.1f} sec, Mars Time Total: {total_mars_mins:.0f} min {total_mars_secs%60 + total_mars_tenths%10 / 10:.1f} sec
 
     """
     print(time_message)
